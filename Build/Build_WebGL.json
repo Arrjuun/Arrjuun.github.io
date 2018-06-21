@@ -1,0 +1,13 @@
+{
+"companyName": "DefaultCompany",
+"productName": "Space Shooter",
+"dataUrl": "Build_WebGL.data.unityweb",
+"asmCodeUrl": "Build_WebGL.asm.code.unityweb",
+"asmMemoryUrl": "Build_WebGL.asm.memory.unityweb",
+"asmFrameworkUrl": "Build_WebGL.asm.framework.unityweb",
+"TOTAL_MEMORY": 268435456,
+"graphicsAPI": ["WebGL 2.0", "WebGL 1.0"],
+"webglContextAttributes": {"preserveDrawingBuffer": false},
+"splashScreenStyle": "Dark",
+"backgroundColor": "#231F20"
+}

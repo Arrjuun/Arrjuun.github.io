@@ -1,25 +1,296 @@
 <!DOCTYPE html>
-<html lang="en-us">
-  <head>
+<html lang="en">
+<head>
+    <title>Arjun C</title>
+    <!-- Meta -->
     <meta charset="utf-8">
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    <title>Unity WebGL Player | Space Shooter</title>
-    <link rel="shortcut icon" href="TemplateData/favicon.ico">
-    <link rel="stylesheet" href="TemplateData/style.css">
-    <script src="TemplateData/UnityProgress.js"></script>  
-    <script src="Build/UnityLoader.js"></script>
-    <script>
-      var gameInstance = UnityLoader.instantiate("gameContainer", "Build/Build_WebGL.json", {onProgress: UnityProgress});
-    </script>
-  </head>
-  <body>
-    <div class="webgl-content">
-      <div id="gameContainer" style="width: 600px; height: 900px"></div>
-      <div class="footer">
-        <div class="webgl-logo"></div>
-        <div class="fullscreen" onclick="gameInstance.SetFullscreen(1)"></div>
-        <div class="title">Space Shooter</div>
-      </div>
-    </div>
-  </body>
-</html>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Arjun C">
+    <link rel="shortcut icon" href="favicon.ico">  
+    
+    <link href='https://fonts.googleapis.com/css?family=Lato:300,400,300italic,400italic' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'> 
+    
+    <!-- FontAwesome JS -->
+    <script defer src="https://use.fontawesome.com/releases/v5.7.2/js/all.js" integrity="sha384-0pzryjIRos8mFBWMzSSZApWtPl/5++eIfzYmTgBBmXYdhvxPc+XcFEk+zJwDgWbP" crossorigin="anonymous"></script>
+    
+    <!-- Global CSS -->
+    <link rel="stylesheet" href="assets/plugins/bootstrap/css/bootstrap.min.css">   
+    
+    <!-- Theme CSS -->  
+    <link id="theme-style" rel="stylesheet" href="assets/css/styles.css">
+    
+</head> 
+
+<body>
+    <!-- ******HEADER****** --> 
+    <header class="header">
+        <div class="container clearfix">                       
+            <img class="profile-image img-fluid float-left" src="assets/images/profile.jpg" alt="Arjun C" />
+            <div class="profile-content float-left">
+                <h1 class="name">Arjun C</h1>
+                <h2 class="desc">Unity, Augmented Reality and Machine Learning Engineer</h2>   
+                <ul class="social list-inline">
+                    <li class="list-inline-item"><a href="https://www.linkedin.com/in/arjunchandrasekhara"><i class="fab fa-linkedin-in"></i></a></li>
+                    <li class="list-inline-item"><a href="https://github.com/Arrjuun"><i class="fab fa-github-alt"></i></a></li>    
+                    <li class="list-inline-item"><a href="https://stackoverflow.com/users/7813741/arjun-chandrasekhara"><i class="fab fa-stack-overflow"></i></a></li>   
+                    <li class="list-inline-item last-item"><a href="https://www.kaggle.com/arjunchandrasekhara"><i class="fab fa-kaggle"></i></a></li>                
+                </ul> 
+            </div><!--//profile-->
+            <a class="btn btn-cta-primary float-right" href="mailto: arjun.c193@gmail.com" target="_blank"><i class="fas fa-paper-plane"></i> Contact Me</a>
+        </div><!--//container-->
+    </header><!--//header-->
+    
+    <div class="container sections-wrapper">
+        <div class="row">
+            <div class="primary col-lg-8 col-12">
+                <section class="about section">
+                    <div class="section-inner">
+                        <h2 class="heading">About Me</h2>
+                        <div class="content">
+                            <p>A passionate programmer currently working with Intact Green Services India, currently working on Magical Reflections, a virtual jewellery try-on platform. I am spearheading the development and deployment of Augment Reality apps using Machine Learning in my organisation. I have designed, developed and deployed apps at production. I completed my Masters from the University of Queensland, Australia, in data science. I was also the founder of a startup during my college days. Coding is something I am passionate about and always open to learn new and challenging technologies and programming languages. I was an invited speaker by the Google Developers Group, Bangalore to give a talk on Machine Learning applied in Augmented Reality, hosted by Altimetrik. </p>
+                         
+                        </div><!--//content-->
+                    </div><!--//section-inner-->                 
+                </section><!--//section-->
+
+                <section class="experience section">
+                    <div class="section-inner">
+                        <h2 class="heading">Work Experience</h2>
+                        <div class="content">
+                            <div class="item">
+                                <h3 class="title">Software Engineer - <span class="place"><a href="#">Intact Green Services</a></span> <span class="year">(May 2018 - Present)</span></h3>
+                                <p>Unity developer and Machine Learning engineer. I built "Magical Reflections", an augmented reality based virtual jewellery try-on platform, which uses machine learning for landmark detection. I have also worked on an android application <a href="https://play.google.com/store/apps/details?id=com.IGS.PixWonder.Droid">PixWonder</a>, an app built using Xamarin.Android that lets the user remove background from their pictures and teleport to the location they want.</p>
+                            </div><!--//item-->
+                            <div class="item">
+                                <h3 class="title">Consultant Software Engineer - <span class="place"><a href="#">Unisys</a></span> <span class="year">(July 2015 - Jan 2017)</span></h3>
+                                <p>.NET developer. I worked on InfoImage, ECM system by Unisys, with cliets spread across the globe. I worked on both development and maintenance of the product.</p>
+                            </div><!--//item-->
+                            
+                            <div class="item">
+                                <h3 class="title">Cofounder - <span class="place"><a href="#">Lush Pillows</a></span> <span class="year">(March 2013 - July 2015)</span></h3>
+                                <p>Co-founded the student venture which made customized pillows. I also handled development of the website.</p>
+                            </div><!--//item-->
+                            
+                        </div><!--//content-->  
+                    </div><!--//section-inner-->                 
+                </section><!--//section-->
+    
+               <section class="latest section">
+                    <div class="section-inner">
+                        <h2 class="heading">Projects</h2>
+                        <div class="content">    
+                                               
+                            <div class="item featured text-center">
+                                <h3 class="title"><a href="https://play.google.com/store/apps/details?id=com.artisteville.sketchersgrid" target="_blank">Sketchers Grid</a></h3>
+                                <p class="summary">Drawing grid application for beginner artists.</p>
+                                <div class="featured-image has-ribbon">
+                                    <a href="https://play.google.com/store/apps/details?id=com.artisteville.sketchersgrid" target="_blank">
+                                    <!-- <img class="img-fluid project-image" src="assets/images/projects/project-featured.jpg" alt="project name" /> -->
+                                    <iframe class="img-fluid project-image" src="https://www.youtube.com/embed/o-9rOVjIc7g" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                    </a>
+                                    <div class="ribbon">
+                                        <div class="text">New</div>
+                                    </div>
+                                </div>
+                                    
+                                <div class="desc text-left">
+                                </br>
+                                    <p>An application to help beginner drawing artists who are focused on portrait drawing by overlaying a grid on their selected image. The grid can be resized, rotated and moved around to fit it with EYE units reference that is mainly used for portrait drawings. Also helpful in the case of other drawings. The images can be saved with or without grid. The saved image can be viewed without the screen turning off, in the app, for uninterrupted drawing experience.</p>
+                                </div><!--//desc-->         
+                                <a class="btn btn-cta-secondary" href="https://play.google.com/store/apps/details?id=com.artisteville.sketchersgrid" target="_blank"><i class="fas fa-download"></i> Download Now</a>
+                            </div><!--//item-->
+                            <hr class="divider" />
+                            
+
+                            <div class="item featured text-center">
+                                    <h3 class="title"><a href="https://play.google.com/store/apps/details?id=com.arjun.swingtobin" target="_blank">Swing To Bin</a></h3>
+                                    <p class="summary">A simple physics based pot the ball game.</p>
+                                    <div class="featured-image has-ribbon">
+                                        <a href="https://play.google.com/store/apps/details?id=com.arjun.swingtobin" target="_blank">
+                                        <!-- <img class="img-fluid project-image" src="assets/images/projects/project-featured.jpg" alt="project name" /> -->
+                                        <iframe class="img-fluid project-image" src="https://www.youtube.com/embed/7maEpTpBYrY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                        </a>
+                                        <div class="ribbon">
+                                            <div class="text">New</div>
+                                        </div>
+                                    </div>
+                                        
+                                    <div class="desc text-left">
+                                    </br>
+                                        <p>A physics based simple puzzle game to understand the suspension, swinging, gravity, and collision. Cut the chain at the right moment to make the connected ball fall directly into the bin placed on the floor or by calculated bouncing behavior. The speed of the game can be varied which changes the gravity that is applied on the ball. Change speed, mute audio and check your stats in the settings.</p>
+                                    </div><!--//desc-->         
+                                    <a class="btn btn-cta-secondary" href="https://play.google.com/store/apps/details?id=com.arjun.swingtobin" target="_blank"><i class="fas fa-download"></i> Download Now</a>
+                                </div><!--//item-->
+                                <hr class="divider" />
+
+                            
+                            
+                            <div class="item row">
+                                <a class="col-md-4 col-12" href="#" target="_blank">
+                                <img class="img-fluid project-image" src="assets/images/projects/audiowave.jpg" alt="project name" />
+                                </a>
+                                <div class="desc col-md-8 col-12">
+                                    <h3 class="title"><a target="_blank">Word Recognition</a></h3>
+                                    <p class="mb-2">POC integrating TensorflowSharp in Unity with tensorflow sample. The word recognition model is based on the Simple Audio Recogniton 
+                                            <a href="https://www.tensorflow.org/tutorials/sequences/audio_recognition">tutorial by Tensorflow</a>. It is based on the CNN for Small-footprint Keyword Spotting.
+                                            The words that can be recognised are "yes", "no", "up", "down", "left", "right",  "on", "off", "stop", and "go".
+                                            </p>
+                                    <p><a class="more-link" href="assets/files/WordCommands.apk" target="_blank"><i class="fas fa-download"></i>Download APK</a></p>
+                                </div><!--//desc-->                          
+                            </div><!--//item-->
+                            
+                            <div class="item row">
+                                    <a class="col-md-4 col-12" href="#" target="_blank">
+                                    <img class="img-fluid project-image" src="assets/images/projects/spaceshooter.jpg" alt="project name" />
+                                    </a>
+                                    <div class="desc col-md-8 col-12">
+                                        <h3 class="title"><a target="_blank">Space Shooter</a></h3>
+                                        <p class="mb-2">Web build of Space Shooter game for PC built using
+                                            <a href="https://learn.unity.com/project/space-shooter-tutorial">tutorial by Unity Learning</a>.
+                                        </p>
+                                        <p><a class="more-link" href="spaceshooter.html" target="_blank"><i class="fas fa-external-link-alt"></i>Play Now</a></p>
+                                    </div><!--//desc-->                          
+                                </div><!--//item-->
+
+                            
+                        </div><!--//content-->  
+                    </div><!--//section-inner-->                
+                </section><!--//section-->
+                
+            </div><!--//primary-->
+            <div class="secondary col-lg-4 col-12">
+                 <aside class="info aside section">
+                    <div class="section-inner">
+                        <h2 class="heading sr-only">Basic Information</h2>
+                        <div class="content">
+                            <ul class="list-unstyled">
+                                <li><i class="fas fa-map-marker-alt"></i><span class="sr-only">Location:</span>Bangalore, IN</li>
+                                <li><i class="fas fa-envelope"></i><span class="sr-only">Email:</span><a href="#">arjun.c193@gmail.com</a></li>
+                            </ul>
+                        </div><!--//content-->  
+                    </div><!--//section-inner-->                 
+                </aside><!--//aside-->
+                
+
+                <aside class="education aside section">
+                        <div class="section-inner">
+                            <h2 class="heading">Education</h2>
+                            <div class="content">
+                                <div class="item">                      
+                                    <h3 class="title"><i class="fas fa-graduation-cap"></i> Master of Computer Science</h3>
+                                    <h4 class="university">The University of Queensland, Brisbane <span class="year">(2017)</span></h4>
+                                </div><!--//item-->
+                                <div class="item">
+                                    <h3 class="title"><i class="fas fa-graduation-cap"></i> BE, Computer Science</h3>
+                                    <h4 class="university">The National Institute of Engineering, Mysore <span class="year">(2011-2015)</span></h4>
+                                </div><!--//item-->
+                            </div><!--//content-->
+                        </div><!--//section-inner-->
+                    </aside><!--//section-->
+
+                <aside class="skills aside section">
+                    <div class="section-inner">
+                        <h2 class="heading">Skills</h2>
+                        <div class="content">
+                            <p class="intro">
+                                I started my career as an ASP.NET developer. I then parallelly started working on Python for Machine Learning. And now, I combine these two to build Augmented Reality applications using Unity. </p>
+                            
+                            <div class="skillset">
+                               
+                                <div class="item">
+                                    <h3 class="level-title">C# .NET<span class="level-label" data-toggle="tooltip" data-placement="left" data-animation="true" title="You can use the tooltip to explain more about your skill level..."><i class="fas fa-info-circle"></i>Advanced</span></h3>
+                                    <div class="level-bar">
+                                        <div class="level-bar-inner" data-level="90%">
+                                        </div>                                      
+                                    </div><!--//level-bar-->                                 
+                                </div><!--//item-->
+                                
+                                <div class="item">
+                                    <h3 class="level-title">Python<span class="level-label" data-toggle="tooltip" data-placement="left" data-animation="true" title="You can use the tooltip to explain more about your skill level..."><i class="fas fa-info-circle"></i>Advanced</span></h3>
+                                    <div class="level-bar">
+                                        <div class="level-bar-inner" data-level="90%">
+                                        </div>                                      
+                                    </div><!--//level-bar-->                                 
+                                </div><!--//item-->
+                                
+                                <div class="item">
+                                    <h3 class="level-title">Machine Learning (Tensorflow-Keras)<span class="level-label" data-toggle="tooltip" data-placement="left" data-animation="true" title="You can use the tooltip to explain more about your skill level..."><i class="fas fa-info-circle"></i>Advanced</span></h3>
+                                    <div class="level-bar">
+                                        <div class="level-bar-inner" data-level="90%">
+                                        </div>                                      
+                                    </div><!--//level-bar-->                                 
+                                </div><!--//item-->
+                                
+                                <div class="item">
+                                    <h3 class="level-title">Unity<span class="level-label" data-toggle="tooltip" data-placement="left" data-animation="true" title="You can use the tooltip to explain more about your skill level..."><i class="fas fa-info-circle"></i>Intermediate</span></h3>
+                                    <div class="level-bar">
+                                        <div class="level-bar-inner" data-level="75%">
+                                        </div>                                      
+                                    </div><!--//level-bar-->                                 
+                                </div><!--//item-->
+                                
+                                <div class="item">
+                                    <h3 class="level-title">Augmented Reality<span class="level-label" data-toggle="tooltip" data-placement="left" data-animation="true" title="You can use the tooltip to explain more about your skill level..."><i class="fas fa-info-circle"></i>Intermediate</span></h3>
+                                    <div class="level-bar">
+                                        <div class="level-bar-inner" data-level="75%">
+                                        </div>                                      
+                                    </div><!--//level-bar-->                                 
+                                </div><!--//item-->
+
+                                <!-- <p><a class="more-link" href="#"><i class="fas fa-external-link-alt"></i>More on Coderwall</a></p>  -->
+                            </div>              
+                        </div><!--//content-->  
+                    </div><!--//section-inner-->                 
+                </aside><!--//section-->
+
+                <aside class="list conferences aside section">
+                        <div class="section-inner">
+                            <h2 class="heading">Events</h2>
+                            <div class="content">
+                                <ul class="list-unstyled">
+                                    <li><i class="far fa-calendar-alt"></i> <a> Invited as the speaker for a talk on "Tensorflow(Machine Learning) applied for Augmented Reality" hosted by The Google Developers' Group and Altimetrik.</a> (Bangalore)</li>
+                                </ul>
+                            </div><!--//content-->
+                        </div><!--//section-inner-->
+                    </aside><!--//section-->
+                
+                    <aside class="list conferences aside section">
+                            <div class="section-inner">
+                                <h2 class="heading">Publication</h2>
+                                <div class="content">
+                                    <ul class="list-unstyled">
+                                        <li><a> A. Halageri, A. Bidappa, C. Arjun, M. M. Sarathy, and S. Sultana, "Speech Recognition using Deep Learning," (IJCSIT) International Journal of Computer Science and Information Technologies, vol. 6, no. 3, 2015.</a></li>
+                                    </ul>
+                                </div><!--//content-->
+                            </div><!--//section-inner-->
+                        </aside><!--//section-->
+              
+            </div><!--//secondary-->    
+        </div><!--//row-->
+    </div><!--//masonry-->
+    
+    <!-- ******FOOTER****** --> 
+    <footer class="footer">
+        <div class="container text-center">
+                <!--/* This template is released under the Creative Commons Attribution 3.0 License. Please keep the attribution link below when using for your own project. Thank you for your support. :) If you'd like to use the template without the attribution, you can check out our commercial license options via our website: themes.3rdwavemedia.com */-->
+                <small class="copyright">Designed with <i class="fas fa-heart"></i> by <a href="https://themes.3rdwavemedia.com" target="_blank">Xiaoying Riley</a> for developers</small>
+        </div><!--//container-->
+    </footer><!--//footer-->
+ 
+    <!-- Javascript -->          
+    <script type="text/javascript" src="assets/plugins/jquery-3.3.1.min.js"></script>
+    <script type="text/javascript" src="assets/plugins/popper.min.js"></script> 
+    <script type="text/javascript" src="assets/plugins/bootstrap/js/bootstrap.min.js"></script>    
+    <script type="text/javascript" src="assets/plugins/jquery-rss/dist/jquery.rss.min.js"></script> 
+    <!-- github calendar plugin
+    <script type="text/javascript" src="assets/plugins/github-calendar/dist/github-calendar.min.js"></script>
+    github activity plugin
+    <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/mustache.js/0.7.2/mustache.min.js"></script>
+    <script type="text/javascript" src="assets/plugins/github-activity/github-activity-0.1.5.min.js"></script> -->
+    <!-- custom js -->
+    <script type="text/javascript" src="assets/js/main.js"></script>            
+</body>
+</html> 
+
